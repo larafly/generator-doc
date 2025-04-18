@@ -40,7 +40,7 @@ Run the following command to install the code generator:
 php artisan generator:install
 ``` 
 
-Now you can access your application URL `http://localhost:8000/generator` to use `Laravel Generator`
+Now you can access your application URL `http://localhost:8000/laravel-generator` to use `Laravel Generator`
 
 # UI Interface
 After installation, access the link to see the following interface

@@ -40,7 +40,7 @@ composer require --dev foryoufeng/laravel-generator
 php artisan generator:install
 ```
 
-现在你可以访问您的应用url`http://localhost:8000/generator` 来使用`Laravel Generator`了
+现在你可以访问您的应用url`http://localhost:8000/laravel-generator` 来使用`Laravel Generator`了
 
 # UI界面
 
