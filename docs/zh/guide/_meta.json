@@ -1,0 +1,14 @@
+[
+  {
+    "type": "dir",
+    "name": "start",
+    "label": "start",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "basic",
+    "label": "basic",
+    "collapsed": true
+  }
+]

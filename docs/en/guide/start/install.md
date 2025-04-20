@@ -6,7 +6,7 @@ If you have PHP and Composer installed, you can install the Laravel installer vi
 composer global require laravel/installer
 ``` 
 
-## Creating an Application
+## Creating a Laravel Application
 After installing PHP, Composer, and the Laravel installer, you can create a new Laravel application. The Laravel installer will prompt you to choose your preferred testing framework, database, and starter kit:
 ```bash
 laravel new example-app

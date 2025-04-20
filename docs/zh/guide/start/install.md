@@ -5,7 +5,7 @@
 composer global require laravel/installer
 ```
 
-## 创建应用
+## 创建Laravel应用
 
 安装 PHP、Composer 和 Laravel 安装器后，您即可创建新 Laravel 应用。Laravel 安装器将提示您选择偏好的测试框架、数据库及入门套件：
 ```sh
