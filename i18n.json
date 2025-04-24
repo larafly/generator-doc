@@ -15,6 +15,10 @@
     "en": "Install",
     "zh": "安装"
   },
+  "update_log": {
+    "en": "Update Log",
+    "zh": "更新记录"
+  },
   "basic": {
     "en": "Basic",
     "zh": "基础"
