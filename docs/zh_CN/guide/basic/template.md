@@ -1,39 +1,40 @@
-# Templates
-Used to set the templates for generating files. Theoretically, it can generate any file you need. A set of template files was pre-installed during installation.
+# 模板
+用于设置生成文件的模板，理论上是可以生成任何您所需要的文件的，在安装时，系统已默认安装了一组模版文件
 
-### UI Interface
+### UI界面
 
-![Templates](/template.png)
+![模板](/template.png)
 
-### Description
 
-#### List Description:
+### 说明
 
-* **Path:** The relative path where the file will be generated, with the project directory as the root.
-* **Selected:** Whether the file is automatically checked for generation in the generator interface.
-* **Group:**  Groups files together for easier management of generated files.
-* **Edit:** Allows editing of template information.
+#### 列表说明：
 
-### Template Field Description:
+* 路径:文件所生成的相对路径，以项目所在的目录为根路径
+* 是否选中:在生成器界面，文件是否默认自动勾选生成
+* 所属组：将文件进行分组，方便生成文件的管理
+* 编辑：可以对模板信息进行编辑
 
-#### Basic Fields:
-  * **DummyDisplayName:** Display name, such as User Address.
-  * **DummyClass:** Class name, such as UserAddress.
-  * **DummyCamelClass:** Camel case class name, such as userAddress.
-  * **DummySnakeClass:** Lowercase class name, such as user_address.
-  * **DummyPluralClass:** Plural class name, such as Users.
-  * **DummySnakePluralClass:** Lowercase plural class name, such as users.
+#### 模板字段说明：
 
-#### Global Variables:
-  * `$tableFields`: All table field data, looped through using @foreach to extract table data
-  * `$customKeys`: Custom key-value pairs , such as `$customKeys['author']`
-  * `$relationShips`: Data for associations
-  * `$modelFields`: Model-related data, such as `primary_key`, `timestamps`, `soft_deletes`
+##### 基础字段：
+  * DummyDisplayName：显示名称,如用户地址
+  * DummyClass：类名称,如：UserAddress
+  * DummyCamelClass：类的驼峰名，如：userAddress
+  * DummySnakeClass：类小写，如user_address
+  * DummyPluralClass:类的复数，如Users
+  * DummySnakePluralClass:类小写复数，如users
 
-#### Template Rendering
-  * Uses [blade](https://laravel.com/docs/12.x/blade) for template processing.
+##### 全局变量：
+  * `$tableFields`：所有的表字段数据，通过@foreach遍历循环表字段，取出表数据
+  * `$customKeys`：自定义的键值对,如 `$customKeys['author']`
+  * `$relationShips`：关联关系的数据,
+  * `$modelFields`：模型相关的数据，如`primary_key`,`timestamps`,`soft_deletes`
 
-#### Template Example
+##### 模板渲染
+  * 使用的[blade](https://laravel.com/docs/12.x/blade)进行模板的处理
+
+##### 模板示例
 
 ```js
 <?php

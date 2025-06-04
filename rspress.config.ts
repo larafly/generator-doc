@@ -4,7 +4,7 @@ import { defineConfig } from 'rspress/config';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'Laravel Generator',
-  lang: 'zh',
+  lang: 'zh_CN',
   icon: '/laravel-generator.png',
   logo: {
     light: '/laravel-generator-logo.png',
@@ -18,7 +18,7 @@ export default defineConfig({
       description: 'Laravel Generator Document',
     },
     {
-      lang: 'zh',
+      lang: 'zh_CN',
       label: '简体中文',
       title: 'Laravel Generator',
       description: 'Laravel代码生成器文档',
@@ -39,7 +39,7 @@ export default defineConfig({
     ],
     locales: [
       {
-        lang: 'zh',
+        lang: 'zh_CN',
         label: '简体中文',
         editLink: {
           docRepoBaseUrl:

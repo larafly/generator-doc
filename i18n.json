@@ -1,46 +1,46 @@
 {
   "start": {
     "en": "Start",
-    "zh": "开始"
+    "zh_CN": "开始"
   },
   "guide": {
     "en": "Guide",
-    "zh": "指南"
+    "zh_CN": "指南"
   },
   "introduce": {
     "en": "Introduce",
-    "zh": "介绍"
+    "zh_CN": "介绍"
   },
   "install": {
     "en": "Install",
-    "zh": "安装"
+    "zh_CN": "安装"
   },
   "update_log": {
     "en": "Update Log",
-    "zh": "更新记录"
+    "zh_CN": "更新记录"
   },
   "basic": {
     "en": "Basic",
-    "zh": "基础"
+    "zh_CN": "基础"
   },
   "configuration": {
     "en": "Configuration",
-    "zh": "配置"
+    "zh_CN": "配置"
   },
   "generate_logs": {
     "en": "Generate Logs",
-    "zh": "生成记录"
+    "zh_CN": "生成记录"
   },
   "generate": {
     "en": "Generate",
-    "zh": "生成器"
+    "zh_CN": "生成器"
   },
   "migration": {
     "en": "Migration",
-    "zh": "迁移"
+    "zh_CN": "迁移"
   },
   "template": {
     "en": "Template",
-    "zh": "模板"
+    "zh_CN": "模板"
   }
 }
