@@ -12,7 +12,7 @@ php artisan vendor:publish --tag=laravel-generator
 
 `laravel-generator.php` file description:
 
-```sh
+```php
 <?php
 
 return [

@@ -1,6 +1,6 @@
 import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
-
+import { pluginShiki } from '@rspress/plugin-shiki';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'Laravel Generator',
@@ -10,6 +10,7 @@ export default defineConfig({
     light: '/laravel-generator-logo.png',
     dark: '/laravel-generator-logo.png',
   },
+  plugins: [pluginShiki()],
   locales: [
     {
       lang: 'en',

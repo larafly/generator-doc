@@ -35,7 +35,7 @@ Used to set the templates for generating files. Theoretically, it can generate a
 
 #### Template Example
 
-```js
+```php
 <?php
 /**
  *
